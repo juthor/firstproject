@@ -1,0 +1,50 @@
+
+/*home.html*/
+.wordcounttitle{
+    text-align: center;
+    margin-bottom:50px;
+    font-family: 'Lobster';
+    background-color: #ff9400;
+    padding: 30px 20px 30px 40px;
+}
+
+/*about.html*/
+.aboutbackground{
+    text-align: center;
+    margin-bottom:50px;
+    background-color:rgb(17, 5, 85);
+    padding: 30px 20px 30px 40px;
+}
+.hufstitle{
+    font-family: 'Lobster';
+    display: inline-block;
+    text-align: center;
+}
+
+.gotohomebutton{
+    text-align: right;
+    float: right;
+}
+
+/*result.html*/
+.resultbackground{
+    text-align: center;
+    margin-bottom:50px;
+    background-color:gray;
+    padding: 30px 20px 30px 40px;
+  }
+
+.resulttitle{
+    color: #000000;
+    font-family: 'Lobster';
+    display: inline-block;
+    text-align: center;
+}
+.resulttohome{
+    text-align: right;
+    float: right;
+}
+
+.resulttext{
+    text-align:center;
+}

@@ -20,7 +20,7 @@
                 <a href="/home" class="btn btn-outline-warning">Home <br>홈으로 가쟈</a></button>
             </div>
         </div>
-        <div class="resulttext" style="padding-bottom:100px;">
+        <div class="resulttext" style="padding-bottom:100px; text-align:center;">
             <h3>당신이 입력한 텍스트는 "{{total}}"단어로 구성되어 있습니다.</h3>
             <br><br>
             <h3>입력한 텍스트</h3>
@@ -28,7 +28,7 @@
         </div>
         <div class="resultbox">
             <h3 style="text-align: center">단어 카운트</h3><br>
-            <div class="resultword" style="padding-left:550px;">
+            <div class="resultword" style="padding-left:40.18585888888888833%">
                 {% for word, frequency in dictionary %}
                 <h5 style="padding-bottom:10px; text-align:left;">{{frequency}}개  &nbsp; &nbsp; {{word}}</h5>
                 {%endfor%}

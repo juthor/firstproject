@@ -15,7 +15,7 @@
     background-color:rgb(17, 5, 85);
     padding: 30px 20px 30px 40px;
 }
-.hufstitle{
+.section-title{
     font-family: 'Lobster';
     display: inline-block;
     text-align: center;
@@ -24,6 +24,9 @@
 .gotohomebutton{
     text-align: right;
     float: right;
+}
+.padd-section{
+    padding-bottom: 50px;
 }
 
 /*result.html*/
@@ -45,6 +48,14 @@
     float: right;
 }
 
-.resulttext{
-    text-align:center;
+
+/*footer*/
+.footer{ 
+    position:fixed; 
+    left:0px; 
+    bottom:0px; 
+    height:60px; 
+    width:100%; 
+    background-color:grey; 
+    text-align: center; 
 }
